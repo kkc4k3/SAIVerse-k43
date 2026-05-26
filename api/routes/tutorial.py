@@ -322,18 +322,18 @@ MODEL_ROLE_DESCRIPTIONS = {
 PROVIDER_PRESETS: Dict[str, Dict[str, Optional[str]]] = {
     "gemini_paid": {
         "default_model": "gemini-3-flash-preview-paid",
-        "lightweight_model": "gemini-3.1-flash-lite-paid",
-        "agentic_model": "gemini-3.1-flash-lite-paid",
-        "memory_weave_model": "gemini-3.1-flash-lite-paid",
-        "image_summary_model": "gemini-3.1-flash-lite-paid",
+        "lightweight_model": "gemini-3.1-flash-lite-preview-paid",
+        "agentic_model": "gemini-3.1-flash-lite-preview-paid",
+        "memory_weave_model": "gemini-3.1-flash-lite-preview-paid",
+        "image_summary_model": "gemini-3.1-flash-lite-preview-paid",
         "task_creation_model": "gemini-3-flash-preview-paid",
     },
     "gemini_free": {
         "default_model": "gemini-3-flash-preview",
-        "lightweight_model": "gemini-3.1-flash-lite",
-        "agentic_model": "gemini-3.1-flash-lite",
-        "memory_weave_model": "gemini-3.1-flash-lite",
-        "image_summary_model": "gemini-3.1-flash-lite",
+        "lightweight_model": "gemini-3.1-flash-lite-preview",
+        "agentic_model": "gemini-3.1-flash-lite-preview",
+        "memory_weave_model": "gemini-3.1-flash-lite-preview",
+        "image_summary_model": "gemini-3.1-flash-lite-preview",
         "task_creation_model": "gemini-3-flash-preview",
     },
     "anthropic": {
